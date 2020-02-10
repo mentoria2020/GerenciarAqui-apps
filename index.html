@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gerenciar Aqui</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Varela", sans-serif;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #d15a7c;
+        background: url("./bg.png");
+      }
+
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 70%;
+        border: solid 1px #be8abf;
+        border-radius: 4px;
+        background-color: rgb(173, 98, 170, 0.6);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 30px;
+      }
+
+      .logo span {
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 4rem;
+        display: block;
+        text-align: center;
+        width: 85%;
+        color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25%;
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: solid 1px;
+        width: 150px;
+        height: 70px;
+        margin: 5px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        border-color: #ffffff;
+        color: #edf7fa;
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: #f5eaea;
+        background-color: rgb(173, 98, 170, 0.6);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a span {
+        margin-top: 2px;
+        display: block;
+        font-size: 11px;
+        font-weight: 400;
+      }
+
+      @media (max-width: 576px) {
+        .wrap {
+          width: 90%;
+        }
+
+        .logo span {
+          font-size: 2.5rem;
+        }
+
+        .links {
+          justify-content: flex-start;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+        }
+
+        a {
+          width: 60%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <div class="logo">
+          <span><b>Gerenciar</b>Aqui</span>
+        </div>
+        <div class="links">
+          <a href="">APP <span>@Fabiano</span></a>
+          <a href="">APP <span>@Rafael</span></a>
+          <a href="https://gabrielmlinassi.github.io/gerenciarAqui/login.html"
+            >WEB APP <span>@Gabriel</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
